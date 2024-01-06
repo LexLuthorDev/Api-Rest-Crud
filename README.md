@@ -10,7 +10,7 @@
 ## Exemplo
 
 ```
-$ npm install express-generator -g
+npm install express-generator -g
 
 ```
 
