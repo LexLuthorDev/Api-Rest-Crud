@@ -17,38 +17,38 @@ $ npm install express-generator -g
 ## Iniciando um projeto express-generator
 
 ```
-$ express --no-view api-rest
-$ cd api-rest
+express --no-view api-rest
+cd api-rest
 ```
 
 ```
-$ npm install sequelize mysql2 nodemon
-$ npm install --save-dev sequelize-cli
-$ npm install -g controllergenerate
+npm install sequelize mysql2 nodemon
+npm install --save-dev sequelize-cli
+npm install -g controllergenerate
 ```
 
 ## Iniciando o sequelize-cli
 
 ```
-$ npx sequelize-cli init
+npx sequelize-cli init
 
 ```
 
 ### Criar o model e migração
 
 ```
-$ npx sequelize-cli model:create --name Usuario --attributes "name:string,email:string, senha:string"
+npx sequelize-cli model:create --name Usuario --attributes "name:string,email:string, senha:string"
 
 ```
 
 ```
-$ npx sequelize-cli db:migrate
+npx sequelize-cli db:migrate
 ```
 
 ### Criar o controller
 
 ```
-$ controllergenerate generate-controller usuarioController Usuario
+controllergenerate generate-controller usuarioController Usuario
 
 ```
 
