@@ -95,3 +95,11 @@ Para executar o projeto, execute o comando `npm start`
 npm start
 
 ```
+
+- Email: lexluthordevfull@gmail.com
+
+- Developed with ❤️ by @lexluthor
+
+- Doação: https://github.com/sponsors/LexLuthorDev
+
+Happy coding! 👨🏻‍💻👩‍💻
