@@ -92,5 +92,6 @@ app.use("/usuario", usuarioRouter);
 Para executar o projeto, execute o comando `npm start`
 
 ```
+npm start
 
 ```
